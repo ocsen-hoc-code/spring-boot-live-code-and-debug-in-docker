@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<main>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.chicken.main.MainApplication",
+            "projectName": "main",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach) - Remote",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005
+          }
+    ]
+}
